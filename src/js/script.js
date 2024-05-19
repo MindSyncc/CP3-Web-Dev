@@ -17,19 +17,20 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 }
 
+//MUDAR CORES
+let cores = ["rgb(120, 120, 120)", "rgb(200, 200, 200)", "rgb(255, 255, 255)"];
+let indiceCor = 0;
 
-function mudarCor(){
-    function mudar(numero){
-        return(Math.random()* numero);
-    }
-    const cores = `rgb(${mudar(255)},${mudar(255)},${mudar(255)})`;
-    document.body.style.backgroundColor=cores;
+function mudarCor() {
+    document.body.style.backgroundColor = cores[indiceCor];
+    indiceCor = (indiceCor + 1) % cores.length;
 }
-window.addEventListener('load', function(){
-    this.setInterval(function(){
+
+window.addEventListener('load', function() {
+    this.setInterval(function() {
         mudarCor();
-    },5000)
-})
+    }, 5000);
+});
 function msgAlerta() {
     alert("Seja bem-vindo!");
 }
