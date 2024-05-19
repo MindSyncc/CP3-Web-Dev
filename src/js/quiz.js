@@ -13,7 +13,7 @@ let msg = document.getElementById("msg");
 let resultMsg = "";
 
 if (p1 == "selim") {
-    resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A PRIMEIRA QUESTÃO" + "<br>";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A PRIMEIRA QUESTÃO" + "<br>";
     cont++;
 } else {
     resultMsg += "<br>" + "ERROU A PRIMEIRA QUESTÃO"+ "<br>" + "RESPOSTA: selim" + "<br>";

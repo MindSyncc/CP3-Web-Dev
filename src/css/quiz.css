@@ -1,26 +1,54 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 body{
-    background: linear-gradient(to right, white, grey);
-    font-size: 30px;
-    text-align: center;
-}    
-#msg{
-    background-image:linear-gradient(to right, black, rgb(47, 54, 35));
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    padding-top: 80px;
-    text-transform: uppercase;
+    min-height: 100vh;
+    background: url(../assests/fundologin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    isolation: isolate;
+    inset: 0;
+    position: relative;
+    top: 0;
 }
-h1{
-    background: linear-gradient(to right, bisque, brown);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+
+body:after{
+    z-index: -1;
+    top: 0;
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: rgb(0, 0, 0);
+    opacity: .3;
+}
+
+.container{
+    padding-bottom: 50px;
+    width: 50vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.container h1{
+    padding-top: 40px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container p:not(:nth-of-type(1)){
+    font-weight: 900;
+}
+
+.container p:nth-of-type(1){
+    padding-bottom: 30px;
 }
