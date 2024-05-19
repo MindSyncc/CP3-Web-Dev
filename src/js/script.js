@@ -2,16 +2,22 @@ let imagens = ['img/Bicicleta_inverno.jpg', 'img/Bicicleta_outono.jpg', 'img/Bic
 let index = 0;
 let time = 3000;
 
-function slideShow() {
-    document.getElementById('imgSlide').src=imagens[index];
-    index++;
+//ROLAR SLIDES AUTOMATICAMENTE
 
-    if(index == imagens.length) {
-        index = 0;
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval(function(){nextImage();    
+}, 5000)
+function nextImage(){
+    count++;
+    if(count>3){
+        count = 1;
     }
-    setTimeout('slideShow()', time);
+    document.getElementById("radio"+count).checked = true;
 }
-slideShow();
+
+
 function mudarCor(){
     function mudar(numero){
         return(Math.random()* numero);
@@ -22,7 +28,7 @@ function mudarCor(){
 window.addEventListener('load', function(){
     this.setInterval(function(){
         mudarCor();
-    },2000)
+    },5000)
 })
 function msgAlerta() {
     alert("Seja bem-vindo!");

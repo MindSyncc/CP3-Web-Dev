@@ -10,8 +10,8 @@
 <body>
     <header>
         <nav>
+            <h1>New Fashion</h1>
             <ul>
-                <li><h1>New Fashion</h1></li>
                 <li><a href="/sobre.html">Sobre</a></li>
                 <li><a href="/contato.html">Contato</a></li>
                 <li><a href="/login.html">Login</a></li>
@@ -19,49 +19,81 @@
         </nav>
     </header>
 
-    <div id="main">
-        <h1 class="titulo">Catálogo</h1>
+    <div class="slider">
 
-        <section id="slide">
-            <img id="imgSlide">
-        </section>
-
-
-        <section id="Produtos">
-            <h1 class="titulo">Produtos</h1>
-            <ul>
-                <div>
-                    <p>Produto 1</p>
-                    <img src="/src/assests/shorts_compressao.webp" alt="shorts de compressão">
-                    <button>Comprar</button>
-                </div>
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
             
-                <div>
-                    <p>Produto 2</p>
-                    <img src="/src/assests/DRYFITBRANCALISA_750x.webp.webp" alt="camiseta dryfit">
-                    <button>Comprar</button>
-                </div>
+            <div class="slide first">
+                <img src="./src/assests/slide1.jpg" alt="Imagem-1"/>
+            </div>
+            <div class="slide">
+                <img src="./src/assests/slide2.jpg" alt="Imagem-2"/>
+            </div>
+            <div class="slide">
+                <img src="./src/assests/slide3.jpg" alt="Imagem-3"/>
+            </div>
+            
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
 
-                <div>
-                    <p>Produto 3</p>
-                    <img src="/src/assests/camiseta.webp" alt="camiseta marrom">
-                    <button>Comprar</button>
-                </div>
-
-                <div>
-                    <p>Produto 4</p>
-                    <img src="/src/assests/moletom.avif" alt="moletom">
-                    <button>Comprar</button>
-                </div>
-            </ul>
-        </section>
+        </div>
+            
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
     </div>
+    
+    
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+
+    <section id="Produtos">
+        <h1 class="titulo">Produtos</h1>
+        <ul>
+            <div>
+                <p>Produto 1</p>
+                <img src="/src/assests/moletom.avif" alt="shorts de compressão">
+                <button>Comprar</button>
+            </div>
+        
+            <div>
+                <p>Produto 2</p>
+                <img src="/src/assests/DRYFITBRANCALISA_750x.webp.webp" alt="camiseta dryfit">
+                <button>Comprar</button>
+            </div>
+
+            <div>
+                <p>Produto 3</p>
+                <img src="/src/assests/camiseta.webp" alt="camiseta marrom">
+                <button>Comprar</button>
+            </div>
+
+            <div>
+                <p>Produto 4</p>
+                <img src="/src/assests/moletom.avif" alt="moletom">
+                <button>Comprar</button>
+            </div>
+        </ul>
+    </section>
+
 
 
     <footer>
         <p>@2024 MindSync todos os direitos reservados.</p>
     </footer>
     <!--Javascript externo-->
-    <script src="/asrc/js/script.js"></script>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
