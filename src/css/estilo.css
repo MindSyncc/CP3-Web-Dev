@@ -1,0 +1,57 @@
+body {
+  margin: 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+#slide {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#imgSlide {
+  width: 70%;
+<<<<<<< HEAD
+  height: 600px; 
+=======
+  height: 450px;
+>>>>>>> 6d65119653fd8a5e53efc26d1f32a155f4773afa
+}
+
+div nav{
+  height: 30px;
+}
+
+div nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+  list-style-type: none;
+
+}
+
+div nav ul li a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black; 
+
+}
+div nav ul li a:hover{
+  font-size: 17px;
+
+}
+
+footer{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  margin-top: 100px;
+  bottom: 0;
+}

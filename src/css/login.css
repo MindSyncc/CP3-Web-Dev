@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to right, magenta, navajowhite);
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+form :hover{
+    cursor: pointer;
+    background: transparent;         
+}
+h1{
+    text-align: center;
+    color:black;    
+}

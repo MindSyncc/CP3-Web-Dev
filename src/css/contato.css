@@ -1,0 +1,40 @@
+body div form input {
+  width: 150px;
+}
+
+body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13%;
+  text-transform: uppercase;
+}
+
+body div form {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#enviar {
+  background: linear-gradient(to right, purple, coral);
+}
+#enviar:hover {
+  height: 20px;
+  cursor: pointer;
+  background: linear-gradient(to right, purple, rgb(156, 67, 35));
+}
+li {
+  text-transform: uppercase;
+  text-align: center;
+}
+li:hover {
+  text-align: center;
+  font-size: 20px;
+  height: 20px;
+  width: 90px;
+  cursor: pointer;
+  background: linear-gradient(to right, purple, rgb(155, 49, 80));
+}
+
