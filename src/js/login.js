@@ -6,7 +6,7 @@ function logar() {
 
     if(login == "admin" && senha == "1234") {
         alert("Sucesso!");
-        location.href = "quiz.html";
+        location.href = ("./../../quiz.html");
     }
     else if(login == "" || senha == ""){
         alert("Um dos campos ficou vazio")
@@ -14,4 +14,4 @@ function logar() {
     else {
         alert("Usuario ou senha incorretos")
     }
-}
+};
