@@ -28,7 +28,6 @@ header nav ul{
   justify-content: flex-start;
   gap: 40px;
   list-style-type: none;
-
 }
 
 header nav ul li a{
@@ -40,6 +39,39 @@ header nav ul li a{
 header nav ul li a:hover{
   font-size: 17px;
 
+}
+
+#main{
+  padding-top: 100px;
+}
+
+#main .titulo{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+section{
+  height: 75vh;
+}
+
+#main #Produtos ul{
+  display: flex;
+}
+
+#main #Produtos ul div{
+  width: 500px;
+  height: 250px;
+  gap: 2rem;
+}
+
+#main #Produtos ul div{
+  padding-right: 100px;
+  text-align: center;
+}
+
+#main #Produtos ul img{
+  width: 300px;
+  height: 350px;
 }
 
 footer{
