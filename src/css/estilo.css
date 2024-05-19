@@ -15,18 +15,14 @@ body {
 
 #imgSlide {
   width: 70%;
-<<<<<<< HEAD
-  height: 600px; 
-=======
   height: 450px;
->>>>>>> 6d65119653fd8a5e53efc26d1f32a155f4773afa
 }
 
-div nav{
+header nav{
   height: 30px;
 }
 
-div nav ul{
+header nav ul{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -35,13 +31,13 @@ div nav ul{
 
 }
 
-div nav ul li a{
+header nav ul li a{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
   color: black; 
 
 }
-div nav ul li a:hover{
+header nav ul li a:hover{
   font-size: 17px;
 
 }
