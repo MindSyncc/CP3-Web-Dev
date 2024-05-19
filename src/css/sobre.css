@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header nav{
+    padding-top: 50px;
+    height: 100px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Logo{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li h1 a{
+    display: block;
+}
+
+header nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black; 
+}
+
+header nav ul li a:hover{
+    font-size: 17px;
+}
+
+main{
+    padding-top: 25px;
+}
+
+main h1{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+main section{
+    height: 50vh;
+    padding-left: 50px;
+    border-color: black;
+}
