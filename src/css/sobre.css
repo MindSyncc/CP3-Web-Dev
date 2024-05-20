@@ -39,20 +39,20 @@ header nav ul li a:hover{
 main{
     padding-top: 25px;
     background-color: rgb(228, 228, 228);
+    text-align: center;
 }
 
 main h1{
     font-size: 75px;
-    text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 7rem;
 }
 
 main section{
-    height: 75vh;
-    padding-left: 50px;
+    margin-top: 20vh;
+    margin: 0 5vw;
 }
 
-main section div{
+main section .div-img{
     gap: 2rem;
     display: flex;
 }
@@ -69,7 +69,8 @@ main section div div{
 
 main section h2{
     font-size: 50px;
-    padding-bottom: 50px;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 
 main section div p{
@@ -81,10 +82,13 @@ main section div p{
     font-size: 17px;
 }
 
-main section div img{
-    width: 3000px;
-    height: 550px;
+main section div #img1{
+    max-width: 30vw;    
     border-radius: 5%;
-    margin-right: 150px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+}
+main section div #img2{
+    max-width: 35vw;
+    border-radius: 5%;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
 }
