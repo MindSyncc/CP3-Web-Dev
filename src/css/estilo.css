@@ -292,7 +292,7 @@ hr{
 .pagamento p{
   font-size: 15px;
   font-weight: 400;
-  color: #694a37;
+  color: #000000;
 }
 .formas-de-pagamento{
   display: flex;
@@ -303,8 +303,7 @@ hr{
   width: 50px;
 }
 .atendimento{
-  color: #694a37;
-  height: 150px;
+  color: #000000;
 }
 .atendimento p:first-child{
   font-size: 15px;
