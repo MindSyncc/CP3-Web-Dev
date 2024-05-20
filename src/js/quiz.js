@@ -16,70 +16,70 @@ if (p1 == "Proteína") {
     resultMsg += "<br>" + "VOCÊ ACERTOU A PRIMEIRA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A PRIMEIRA QUESTÃO"+ "<br>" + "RESPOSTA: selim" + "<br>";
+    resultMsg += "<br>" + "ERROU A PRIMEIRA QUESTÃO"+ "<br>" + "RESPOSTA: Proteína" + "<br>";
 }
 
 if (p2 == "Carboidrato") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A SEGUNDA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A SEGUNDA QUESTÃO"+ "<br>" + "RESPOSTA: rodas"+ "<br>";
+    resultMsg += "<br>" + "ERROU A SEGUNDA QUESTÃO"+ "<br>" + "RESPOSTA: Carboidrato"+ "<br>";
 }
 
 if (p3 == "Whey") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A TERCEIRA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A TERCEIRA QUESTÃO"+ "<br>" + "RESPOSTA: cambio"+ "<br>";
+    resultMsg += "<br>" + "ERROU A TERCEIRA QUESTÃO"+ "<br>" + "RESPOSTA: Whey"+ "<br>";
 }
 
 if (p4 == "Cardio") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A QUARTA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A QUARTA QUESTÃO"+ "<br>" + "RESPOSTA: guidao"+ "<br>";
+    resultMsg += "<br>" + "ERROU A QUARTA QUESTÃO"+ "<br>" + "RESPOSTA: Cardio"+ "<br>";
 }
 
 if (p5 == "Gymbro") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A QUINTA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A QUINTA QUESTÃO"+ "<br>" + "RESPOSTA: mountain bike"+ "<br>";
+    resultMsg += "<br>" + "ERROU A QUINTA QUESTÃO"+ "<br>" + "RESPOSTA: Gymbro"+ "<br>";
 }
 
 if (p6 == "Bulking") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A SEXTA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A SEXTA QUESTÃO"+ "<br>" + "RESPOSTA: bicycle motocross"+ "<br>";
+    resultMsg += "<br>" + "ERROU A SEXTA QUESTÃO"+ "<br>" + "RESPOSTA: Bulking"+ "<br>";
 }
 
 if (p7 == "Cutting") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A SÉTIMA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A SÉTIMA QUESTÃO"+ "<br>" + "RESPOSTA: pedal"+ "<br>";
+    resultMsg += "<br>" + "ERROU A SÉTIMA QUESTÃO"+ "<br>" + "RESPOSTA: Cutting"+ "<br>";
 }
 
 if (p8 == "Strap") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A OITAVA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A OITAVA QUESTÃO"+ "<br>" + "RESPOSTA: garfo"+ "<br>";
+    resultMsg += "<br>" + "ERROU A OITAVA QUESTÃO"+ "<br>" + "RESPOSTA: Strap"+ "<br>";
 }
 
 if (p9 == "Supino") {
     resultMsg += "<br>" + "<br>" + "VOCÊ ACERTOU A NONA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A NONA QUESTÃO"+ "<br>" + "RESPOSTA: tensionador de corrente"+ "<br>";
+    resultMsg += "<br>" + "ERROU A NONA QUESTÃO"+ "<br>" + "RESPOSTA: Supino"+ "<br>";
 }
 
 if (p10 == "Creatina") {
     resultMsg += "<br>" + "VOCÊ ACERTOU A DÉCIMA QUESTÃO" + "<br>";
     cont++;
 } else {
-    resultMsg += "<br>" + "ERROU A DÉCIMA QUESTÃO"+ "<br>" + "RESPOSTA: primavera" + "<br>";
+    resultMsg += "<br>" + "ERROU A DÉCIMA QUESTÃO"+ "<br>" + "RESPOSTA: Creatina" + "<br>";
 }
 
 msg.innerHTML = `VOCÊ ACERTOU ${cont} QUESTÕES:${resultMsg}`;
