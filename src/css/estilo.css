@@ -62,7 +62,7 @@ header nav ul li:nth-of-type(4) {
 }
 
 .slider{
-  margin-top: 100px; /*margem igual à altura do header para evitar sobreposição*/
+  margin-top: 23vh; /*margem igual à altura do header para evitar sobreposição*/
   position: relative;
   width: 80%;
   margin-left: auto;
