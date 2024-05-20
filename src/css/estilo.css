@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Freeman&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@ html{
 }
 body{
   width: 100%;
+  font-family: "Belleza", sans-serif;
 }
 header{
   margin: 0 auto;
@@ -16,11 +19,16 @@ header{
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   z-index: 2;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  isolation: isolate;
+  top: 0;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
+
 
 header nav{
   height: 13vh;
-  background-image:linear-gradient(45deg, rgba(189, 189, 189, 0.8), rgba(255, 255, 255, 0.8));
+  background-image:linear-gradient(90deg, rgba(216, 216, 216, 0.685), rgba(255, 255, 255, 0.9));
   width: 100%;
   display: flex;
   align-items: center;
@@ -42,7 +50,6 @@ header nav ul li{
 }
 
 header nav ul li a{
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
   color: black; 
 
@@ -166,17 +173,15 @@ section ul{
   list-style-type: none;
 }
 
-
-
 #Produtos .titulo{
   padding-bottom: 50px;
-  text-align: center;
 }
 
 
 #Produtos ul{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #Produtos ul div{
@@ -187,12 +192,14 @@ section ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
 #Produtos{
   font-size: 40px;
+  text-align: center;
 }
 
 #Produtos p{
@@ -227,7 +234,6 @@ section ul{
 }
 
 footer{
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align:center;
   margin-top: 100px;
 }
