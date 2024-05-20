@@ -1,5 +1,5 @@
 let cont = 0;
-let p1 = prompt("Qual é o nome da parte da bicicleta onde você senta?");
+let p1 = prompt("Qual é o nome da macromolécula responsável por reparar os tecidos do corpo?");
 let p2 = prompt("Como são chamadas as rodas da bicicleta?");
 let p3 = prompt("Qual é o componente que você gira para mudar as marchas da bicicleta?");
 let p4 = prompt("Qual é o nome da parte da bicicleta onde você segura enquanto pedala?");
@@ -12,7 +12,7 @@ let p10 = prompt("Qual a melhor estação do ano para andar de bicicleta");
 let msg = document.getElementById("msg");
 let resultMsg = "";
 
-if (p1 == "selim") {
+if (p1 == "Proteína") {
     resultMsg += "<br>" + "VOCÊ ACERTOU A PRIMEIRA QUESTÃO" + "<br>";
     cont++;
 } else {

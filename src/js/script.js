@@ -18,7 +18,7 @@ function nextImage(){
 }
 
 //MUDAR CORES
-let cores = ["rgb(120, 120, 120)", "rgb(200, 200, 200)", "rgb(255, 255, 255)"];
+let cores = ["rgb(235, 235, 235)", "rgb(255, 250, 241)", "rgb(255, 255, 255)"];
 let indiceCor = 0;
 
 function mudarCor() {
