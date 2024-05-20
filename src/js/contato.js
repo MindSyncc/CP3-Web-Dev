@@ -4,9 +4,9 @@ function validar() {
     var email = document.getElementById('email').value.trim();
 
     if (nome == "" || telefone== "" || email == "") {
-        alert("Um dos campos ficou vazio")
+        return False
     }
     else{
-        alert("Validando...")
+        alert("Informações recebidas com sucesso!")
     }
 }
