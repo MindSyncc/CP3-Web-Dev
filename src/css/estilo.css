@@ -201,6 +201,7 @@ section ul{
 #Produtos{
   font-size: 40px;
   text-align: center;
+  margin-bottom: 8rem;
 }
 
 #Produtos p{
@@ -234,9 +235,94 @@ section ul{
   border-color: black;
 }
 
-footer{
-  text-align:center;
-  margin-top: 100px;
+.hr-footer1{
+  border-top: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.hr-footer2{
+  border-top: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.hr-footer3{
+  border-top: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+hr{
+  border-top: 1px solid #000000;
+  opacity: .3;
+}
+
+.siga-a-gente{
+  text-align: center;
+  color: #694a37;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.social-media{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+}
+.social-media img{
+  height: 40px;
+  width: 40px;
+}
+.social-media img:hover{
+  height: 42px;
+  width: 42px;
+}
+.informações{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.pagamento{
+  display: block;
+}
+.pagamento p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #694a37;
+}
+.formas-de-pagamento{
+  display: flex;
+  gap: 10px;
+}
+.formas-de-pagamento img{
+  height: 50px;
+  width: 50px;
+}
+.atendimento{
+  color: #694a37;
+  height: 150px;
+}
+.atendimento p:first-child{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.atendimento p:not(:first-child){
+  font-size: 14px;
+  font-weight: 360;
+  line-height: 0.5;
+  margin-bottom: 20px;
+}
+
+.copyright{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+  font-weight: 360;
 }
 @keyframes escala {
   0% {
