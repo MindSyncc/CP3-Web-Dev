@@ -21,16 +21,13 @@ function nextImage(){
 let cores = ["rgb(235, 235, 235)", "rgb(255, 250, 241)", "rgb(255, 255, 255)"];
 let indiceCor = 0;
 
+document.getElementById('mudar-cor').addEventListener('click', mudarCor);
+
 function mudarCor() {
     document.body.style.backgroundColor = cores[indiceCor];
     indiceCor = (indiceCor + 1) % cores.length;
 }
 
-window.addEventListener('load', function() {
-    this.setInterval(function() {
-        mudarCor();
-    }, 5000);
-});
 function msgAlerta() {
     alert("Seja bem-vindo!");
 }
