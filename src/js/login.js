@@ -6,7 +6,7 @@ function logar() {
 
     if(login == "admin" && senha == "1234") {
         alert("Sucesso!");
-        location.href = ("./../../quiz.html");
+        location.href = ("../CP3-Web-Dev/quiz.html");
     }
     else if(login == "" || senha == ""){
         alert("Um dos campos ficou vazio")
